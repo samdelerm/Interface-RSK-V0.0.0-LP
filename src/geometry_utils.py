@@ -58,7 +58,7 @@ def calculate_half_line_equation(point1, point2):
 def does_half_line_cross_x(green1_position, ball_position, x_value):
     """
     Vérifie si la demi-droite ayant pour origine le robot green1 et passant par la balle
-    croise l'axe x = 0.9 entre y = 0.30 et y = -0.30. Si oui, retourne True, sinon False.
+    croise l'axe x_value entre y = 0.30 et y = -0.30. Si oui, retourne True, sinon False.
     """
     # Récupère l'équation de la demi-droite y = mx + b
     line_equation = calculate_half_line_equation(green1_position, ball_position)
